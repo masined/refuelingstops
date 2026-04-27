@@ -2,7 +2,7 @@
 Finding the minimum number of refueling stops a car needs to make to reach a particular destination
 
 ## Introduction
-This project aims to solve the 'Minimum Number of Refueling Stops' challenge found on the Educative platform. To find out more about the challenge, click the link [!Project Image](/images/projectImage.jpg)[https://www.educative.io/daily-coding-challenge].
+This project aims to solve the 'Minimum Number of Refueling Stops' challenge found on the Educative platform. To find out more about the challenge, click anywhare on the image [![Project Image](/images/projectImage.jpg)](https://www.educative.io/daily-coding-challenge)
 
 ## Problem Description
 You need to find the minimum number of refueling stops that a car needs to make to cover a distance, `target`. For simplicity, assume that the car has to travel from west to east in a straight line. There are various fuel stations on the way that are represented as a 2-D array of stations, i.e., `stations[i]` =`[d-i,f-i]` =`[d-i,f-i]`, where D-i is the distance (in miles) of the i-th gas station from the starting position, and F-i is the amount of fuel (in liters) that it stores. Initially, the car starts with k liters of fuel. The car consumes one liter of fuel for every mile traveled. Upon reaching a gas station, the car can stop and refuel using all the petrol stored at the station. If it cannot reach the target, the program returns −1.
